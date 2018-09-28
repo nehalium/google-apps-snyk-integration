@@ -1,4 +1,4 @@
-# google-apps-snyk-integration
+# Google Apps script to pull data from Snyk.io
 
 ## Installation
 
