@@ -25,6 +25,8 @@ var Appender = (function() {
     row.push('Issue ID');
     row.push('Issue Title');
     row.push('Issue URL');
+    row.push('Severity');
+    row.push('Type');
     row.push('Project ID');
     row.push('Project Name');
     row.push('Project URL');
@@ -37,6 +39,8 @@ var Appender = (function() {
       row.push(items[i].issue.id);
       row.push(items[i].issue.title);
       row.push(items[i].issue.url);
+      row.push(items[i].issue.severity);
+      row.push(items[i].issue.type);
       row.push(items[i].project.id);
       row.push(items[i].project.name);
       row.push(items[i].project.url);
