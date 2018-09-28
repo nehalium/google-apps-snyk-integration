@@ -17,6 +17,7 @@ var Appender = (function() {
     }
   }
   
+  // Returns the table based on the items array
   function buildTable(items) {
     var values = [];
     var row = [];
@@ -51,6 +52,7 @@ var Appender = (function() {
     return values;
   }
   
+  // Returns a reference to the active sheet
   function getSheetReference() {
     var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
     return spreadsheet.getSheetByName(SHEET_DATA);
